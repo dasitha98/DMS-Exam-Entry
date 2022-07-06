@@ -50,16 +50,6 @@ export const Updatesinglestudent = (id,formData) => async (dispatch) => {
 }
 
 
-// export const UpdateStudent = (post) => async (dispatch) => {
-//     try {
-//         const {data} = await api.updateStudent(post);
-//         console.log(data);
-
-//         dispatch({type: 'UPDATE_STUDENT', payload: data})
-//     } catch (error) {
-//         console.log(error)
-//     }
-// }
 
 
 export const FetchAllStudent = () => async (dispatch) => {

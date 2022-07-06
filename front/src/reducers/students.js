@@ -10,8 +10,6 @@ export default (students = [], action) => {
             return [ ...students, action.payload]
         case 'UPDATE_SINGLE_STUDENT':
             return [ ...students, action.payload]
-        // case 'UPDATE_STUDENT':
-        //     return [ ...students, action.payload]
         default:
             return students;
     }
